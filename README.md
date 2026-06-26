@@ -1,53 +1,68 @@
-# Lorenzo Sánchez Fraile
+# Building an ecosystem of Elixir developer tools.
 
-**Senior Software Engineer** building open source tools for the BEAM ecosystem.  
-By day: Core Team at [Truedat](https://www.truedat.io) — enterprise Data Governance platform (Bluetab/IBM).  
-By night: author of a family of Elixir libraries that solve problems I kept running into.
+> *If I solve a problem twice, it probably becomes open source.*
+
+I build small, focused libraries for the BEAM ecosystem — OTP orchestration, LLM inference, CLI frameworks, LiveView tooling and developer productivity. When something doesn't exist in Elixir and I need it, I build it.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/lorenzosanchez-fraile)
 [![hex.pm](https://img.shields.io/badge/hex.pm-6B3FA0?style=flat&logo=erlang&logoColor=white)](https://hex.pm/users/lorenzo-sf)
+[![Email](https://img.shields.io/badge/email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:sanchezfrailelorenzo@gmail.com)
 
 ---
 
-## What I build at work
+## Highlights
 
-Truedat is an open source enterprise Data Governance platform — data catalog, business glossary, lineage, quality, dynamic forms, audit and access control. Used by multinationals in banking, insurance, telecoms and retail.
-
-Microservices architecture: **11 Elixir services**, **REST + GraphQL (Absinthe)**, **PostgreSQL**, **Elasticsearch**, **Redis**, **React.js**.
-
----
-
-## What I build at night — Elixir ecosystem
-
-A family of libraries, each solving one thing well.
-
-| | Project | What it does |
-|---|---------|-------------|
-| ⚡ | [**Arrea**](https://github.com/Lorenzo-SF/arrea) | OTP async process orchestrator — circuit breaker, retry policies, telemetry, DynamicSupervisor |
-| 🕯️ | [**Candil**](https://github.com/Lorenzo-SF/candil) | LLM inference — local via llama.cpp, remote via OpenAI / Anthropic / Ollama |
-| 🏛️ | [**Delfos**](https://github.com/Lorenzo-SF/delfos) | MCP server that indexes your codebase for AI assistants (Claude, Cursor, Zed) |
-| 🎨 | [**Alaja**](https://github.com/Lorenzo-SF/alaja) | Declarative CLI framework + terminal rendering kit with DSL macros |
-| 🚢 | [**Flotilla**](https://github.com/Lorenzo-SF/flotilla) | Declarative wrapper for Phoenix LiveView — Elm Architecture (model → update → view) |
-| 🚦 | [**Válvula**](https://github.com/Lorenzo-SF/valvula) | Zero-dependency token bucket rate limiter built on OTP/ETS |
-| 🧰 | [**Apero**](https://github.com/Lorenzo-SF/apero) | Utility library — file ops, Git, Docker, crypto, HTTP, retry, cache |
-| 🎨 | [**Pote**](https://github.com/Lorenzo-SF/pote) | Color library — parsing, conversion, palettes, xterm256, HSL, CMYK |
-| 🏥 | [**Botica**](https://github.com/Lorenzo-SF/botica) | Health checks and environment diagnostics with parallel execution |
-| 📦 | [**Batamanta**](https://github.com/Lorenzo-SF/batamanta) | Package Elixir apps as self-contained executables with embedded ERTS |
-
-All packages on [hex.pm/users/lorenzo-sf](https://hex.pm/users/lorenzo-sf).
+```
+📦  10 open source libraries published on hex.pm
+⚡  OTP-first architecture — GenServers, Supervisors, ETS, Telemetry
+🤖  MCP servers and LLM inference for the BEAM
+🏢  Enterprise-scale Elixir systems in production (Bluetab / IBM)
+🦾  Elixir NIFs with Rust via Rustler
+```
 
 ---
 
-## Stack
+## Featured projects
 
-![Elixir](https://img.shields.io/badge/Elixir-4B275F?style=flat&logo=elixir&logoColor=white)
-![Phoenix](https://img.shields.io/badge/Phoenix-FD4F00?style=flat&logo=phoenixframework&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![React](https://img.shields.io/badge/React.js-61DAFB?style=flat&logo=react&logoColor=black)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+### ⚡ [Arrea](https://github.com/Lorenzo-SF/arrea) — OTP async process orchestrator
+Circuit breaker (open/closed/half-open, atomic decision), configurable retry policies,
+telemetry integration and ephemeral workers under DynamicSupervisor.
+Built because Elixir needed a proper orchestrator without the overhead of a full queue system.
+
+### 🕯️ [Candil](https://github.com/Lorenzo-SF/candil) — LLM inference for Elixir
+Run local models via llama.cpp (GenServer + OS Port) or remote via OpenAI, Anthropic and Ollama —
+same interface, any backend. SSE streaming, context window management, ETS registry, OS/GPU detection.
+
+### 🏛️ [Delfos](https://github.com/Lorenzo-SF/delfos) — MCP server for AI-assisted coding
+Indexes your codebase and exposes it to AI assistants (Claude Desktop, Cursor, Zed) via MCP.
+Hybrid search (vector + BM25 + graph with RRF), 40+ languages via Tree-sitter NIFs,
+real-time re-indexing, BFS impact analysis and technical debt metrics.
 
 ---
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Lorenzo-SF&show_icons=true&theme=transparent&hide_border=true&title_color=ff9c00&icon_color=ff9c00&text_color=1c1917&hide=contribs)
+## The ecosystem
+
+| Project | What it does |
+|---------|-------------|
+| [**Alaja**](https://github.com/Lorenzo-SF/alaja) | Declarative CLI framework — DSL macros, terminal rendering (tables, boxes, gradients, images) |
+| [**Flotilla**](https://github.com/Lorenzo-SF/flotilla) | Declarative Phoenix LiveView — Elm Architecture (model → update → view), 15+ VDOM components |
+| [**Válvula**](https://github.com/Lorenzo-SF/valvula) | Zero-dependency token bucket rate limiter on OTP/ETS |
+| [**Apero**](https://github.com/Lorenzo-SF/apero) | Utility toolkit — file ops, Git, Docker, crypto, HTTP, retry, ETS cache |
+| [**Pote**](https://github.com/Lorenzo-SF/pote) | Color library — parsing, conversion, palettes, xterm256, HSL, CMYK |
+| [**Botica**](https://github.com/Lorenzo-SF/botica) | Health checks and environment diagnostics with parallel execution |
+| [**Batamanta**](https://github.com/Lorenzo-SF/batamanta) | Package Elixir apps as self-contained executables with embedded ERTS |
+
+---
+
+## By day
+
+Core Team at **[Truedat](https://www.truedat.io)** (Bluetab / IBM) —
+enterprise open source Data Governance platform used by multinationals in banking,
+insurance, telecoms and retail.
+11 Elixir microservices · REST + GraphQL · PostgreSQL · Elasticsearch · Redis · React.js
+
+---
+
+## Primary stack
+
+`Elixir/OTP` `Phoenix` `Ecto` `PostgreSQL` `React.js` `Elasticsearch` `Redis` `Docker`
