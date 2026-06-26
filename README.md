@@ -1,68 +1,71 @@
-# Building an ecosystem of Elixir developer tools.
+# Building AI-native infrastructure for the BEAM ecosystem.
 
-> *If I solve a problem twice, it probably becomes open source.*
+> *If I solve a problem twice, it becomes open source.*
 
-I build small, focused libraries for the BEAM ecosystem — OTP orchestration, LLM inference, CLI frameworks, LiveView tooling and developer productivity. When something doesn't exist in Elixir and I need it, I build it.
+I design and build production-grade infrastructure for Elixir systems — OTP orchestration, LLM runtimes, AI-assisted development tooling and distributed runtime utilities.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/lorenzosanchez-fraile)
-[![hex.pm](https://img.shields.io/badge/hex.pm-6B3FA0?style=flat&logo=erlang&logoColor=white)](https://hex.pm/users/lorenzo-sf)
-[![Email](https://img.shields.io/badge/email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:sanchezfrailelorenzo@gmail.com)
+Most of what I build starts as a personal need inside real systems and ends up as open source libraries on Hex.
 
----
-
-## Highlights
-
-```
-📦  10 open source libraries published on hex.pm
-⚡  OTP-first architecture — GenServers, Supervisors, ETS, Telemetry
-🤖  MCP servers and LLM inference for the BEAM
-🏢  Enterprise-scale Elixir systems in production (Bluetab / IBM)
-🦾  Elixir NIFs with Rust via Rustler
-```
+[LinkedIn](https://linkedin.com/in/lorenzosanchez-fraile) · [hex.pm](https://hex.pm/users/lorenzo-sf) · [Email](mailto:sanchezfrailelorenzo@gmail.com)
 
 ---
 
-## Featured projects
+## What I focus on
 
-### ⚡ [Arrea](https://github.com/Lorenzo-SF/arrea) — OTP async process orchestrator
-Circuit breaker (open/closed/half-open, atomic decision), configurable retry policies,
-telemetry integration and ephemeral workers under DynamicSupervisor.
-Built because Elixir needed a proper orchestrator without the overhead of a full queue system.
-
-### 🕯️ [Candil](https://github.com/Lorenzo-SF/candil) — LLM inference for Elixir
-Run local models via llama.cpp (GenServer + OS Port) or remote via OpenAI, Anthropic and Ollama —
-same interface, any backend. SSE streaming, context window management, ETS registry, OS/GPU detection.
-
-### 🏛️ [Delfos](https://github.com/Lorenzo-SF/delfos) — MCP server for AI-assisted coding
-Indexes your codebase and exposes it to AI assistants (Claude Desktop, Cursor, Zed) via MCP.
-Hybrid search (vector + BM25 + graph with RRF), 40+ languages via Tree-sitter NIFs,
-real-time re-indexing, BFS impact analysis and technical debt metrics.
+- AI-native runtime systems on Elixir (LLM orchestration, tooling, MCP)
+- OTP-first distributed systems (reliability, concurrency, supervision trees)
+- Developer infrastructure for the BEAM ecosystem
+- Small, composable libraries over large frameworks
 
 ---
 
-## The ecosystem
+## Core projects
 
-| Project | What it does |
-|---------|-------------|
-| [**Alaja**](https://github.com/Lorenzo-SF/alaja) | Declarative CLI framework — DSL macros, terminal rendering (tables, boxes, gradients, images) |
-| [**Flotilla**](https://github.com/Lorenzo-SF/flotilla) | Declarative Phoenix LiveView — Elm Architecture (model → update → view), 15+ VDOM components |
-| [**Válvula**](https://github.com/Lorenzo-SF/valvula) | Zero-dependency token bucket rate limiter on OTP/ETS |
-| [**Apero**](https://github.com/Lorenzo-SF/apero) | Utility toolkit — file ops, Git, Docker, crypto, HTTP, retry, ETS cache |
-| [**Pote**](https://github.com/Lorenzo-SF/pote) | Color library — parsing, conversion, palettes, xterm256, HSL, CMYK |
-| [**Botica**](https://github.com/Lorenzo-SF/botica) | Health checks and environment diagnostics with parallel execution |
-| [**Batamanta**](https://github.com/Lorenzo-SF/batamanta) | Package Elixir apps as self-contained executables with embedded ERTS |
+### 🕯️ Candil — LLM runtime for Elixir
+Unified runtime for local and cloud LLMs (llama.cpp, OpenAI, Anthropic, Ollama).
+
+Handles streaming (SSE), context management, backend abstraction and runtime orchestration on top of OTP.
 
 ---
 
-## By day
+### 🏛️ Delfos — AI code intelligence server (MCP)
+MCP server for AI-assisted development tools (Claude Desktop, Cursor, Zed).
 
-Core Team at **[Truedat](https://www.truedat.io)** (Bluetab / IBM) —
-enterprise open source Data Governance platform used by multinationals in banking,
-insurance, telecoms and retail.
-11 Elixir microservices · REST + GraphQL · PostgreSQL · Elasticsearch · Redis · React.js
+Provides codebase indexing, hybrid search (vector + BM25 + graph), real-time updates, and impact analysis across large repositories.
 
 ---
 
-## Primary stack
+### ⚡ Arrea — OTP orchestration layer
+Reliable process orchestration built on OTP primitives.
 
-`Elixir/OTP` `Phoenix` `Ecto` `PostgreSQL` `React.js` `Elasticsearch` `Redis` `Docker`
+Includes circuit breakers, retry policies, telemetry integration and dynamic worker supervision.
+
+---
+
+## Ecosystem
+
+A set of focused libraries built for real production constraints:
+
+- [Alaja](https://github.com/Lorenzo-SF/alaja) — CLI framework with DSL macros and terminal rendering
+- [Flotilla](https://github.com/Lorenzo-SF/flotilla) — LiveView architecture layer (model / update / view)
+- [Válvula](https://github.com/Lorenzo-SF/valvula) — Token bucket rate limiter built on ETS
+- [Apero](https://github.com/Lorenzo-SF/apero) — Developer utilities (files, git, HTTP, retry, cache)
+- [Pote](https://github.com/Lorenzo-SF/pote) — Color manipulation and palette engine
+- [Botica](https://github.com/Lorenzo-SF/botica) — Parallel system health checks
+- [Batamanta](https://github.com/Lorenzo-SF/batamanta) — Self-contained Elixir application packaging
+
+---
+
+## Experience
+
+Core Team — Truedat (Bluetab / IBM)
+
+Enterprise data governance platform used in banking, insurance, telecom and retail sectors.
+
+Built and maintained Elixir-based distributed microservice systems in production environments.
+
+---
+
+## Stack
+
+Elixir · OTP · Phoenix · Ecto · PostgreSQL · Redis · Elasticsearch · Rust NIFs · Docker
