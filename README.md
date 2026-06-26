@@ -6,7 +6,9 @@ I design and build production-grade infrastructure for Elixir systems — OTP or
 
 Most of what I build starts as a personal need inside real systems and ends up as open source libraries on Hex.
 
-[LinkedIn](https://linkedin.com/in/lorenzosanchez-fraile) · [hex.pm](https://hex.pm/users/lorenzo-sf) · [Email](mailto:sanchezfrailelorenzo@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/lorenzosanchez-fraile)
+[![hex.pm](https://img.shields.io/badge/hex.pm-6B3FA0?style=flat&logo=erlang&logoColor=white)](https://hex.pm/users/lorenzo-sf)
+[![Email](https://img.shields.io/badge/email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:sanchezfrailelorenzo@gmail.com)
 
 ---
 
@@ -44,28 +46,29 @@ Includes circuit breakers, retry policies, telemetry integration and dynamic wor
 
 ## Ecosystem
 
-A set of focused libraries built for real production constraints:
+**10 libraries published on hex.pm** — each solving one problem, built for real production constraints:
 
-- [Alaja](https://github.com/Lorenzo-SF/alaja) — CLI framework with DSL macros and terminal rendering
-- [Flotilla](https://github.com/Lorenzo-SF/flotilla) — LiveView architecture layer (model / update / view)
-- [Válvula](https://github.com/Lorenzo-SF/valvula) — Token bucket rate limiter built on ETS
-- [Apero](https://github.com/Lorenzo-SF/apero) — Developer utilities (files, git, HTTP, retry, cache)
-- [Pote](https://github.com/Lorenzo-SF/pote) — Color manipulation and palette engine
-- [Botica](https://github.com/Lorenzo-SF/botica) — Parallel system health checks
-- [Batamanta](https://github.com/Lorenzo-SF/batamanta) — Self-contained Elixir application packaging
+| | Project | What it does |
+|---|---------|-------------|
+| 🎨 | [Alaja](https://github.com/Lorenzo-SF/alaja) | CLI framework with DSL macros and terminal rendering |
+| 🚢 | [Flotilla](https://github.com/Lorenzo-SF/flotilla) | LiveView architecture layer (model / update / view) |
+| 🚦 | [Válvula](https://github.com/Lorenzo-SF/valvula) | Token bucket rate limiter built on ETS |
+| 🧰 | [Apero](https://github.com/Lorenzo-SF/apero) | Developer utilities (files, git, HTTP, retry, cache) |
+| 🎨 | [Pote](https://github.com/Lorenzo-SF/pote) | Color manipulation and palette engine |
+| 🏥 | [Botica](https://github.com/Lorenzo-SF/botica) | Parallel system health checks |
+| 📦 | [Batamanta](https://github.com/Lorenzo-SF/batamanta) | Self-contained Elixir application packaging |
 
 ---
 
 ## Experience
 
-Core Team — Truedat (Bluetab / IBM)
+**Core Team — Truedat** (Bluetab / IBM)
 
 Enterprise data governance platform used in banking, insurance, telecom and retail sectors.
-
-Built and maintained Elixir-based distributed microservice systems in production environments.
+**11 Elixir microservices** in production — REST + GraphQL · PostgreSQL · Elasticsearch · Redis · React.js
 
 ---
 
 ## Stack
 
-Elixir · OTP · Phoenix · Ecto · PostgreSQL · Redis · Elasticsearch · Rust NIFs · Docker
+`Elixir` `OTP` `Phoenix` `Ecto` `PostgreSQL` `Redis` `Elasticsearch` `Docker`
