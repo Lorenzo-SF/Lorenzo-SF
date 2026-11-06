@@ -46,21 +46,27 @@ on the target machine.
 
 ![Elixir](https://img.shields.io/badge/Elixir-4B275F?style=flat-square&logo=elixir&logoColor=white)
 ![OTP](https://img.shields.io/badge/OTP-red?style=flat-square)
-![LLM](https://img.shields.io/badge/LLM-8B5CF6?style=flat-square)
-
+![ARM](https://img.shields.io/badge/ARM-3A789C?style=flat-square)
+![x86_64](https://img.shields.io/badge/x86_64-be6614?style=flat-square)
+![Linux](https://img.shields.io/badge/Linux-F4BC00?style=flat-square)
+![MacOS](https://img.shields.io/badge/MacOS-0071E3?style=flat-square)
 </td>
 <td width="50%" valign="top">
 
 ### 🔧 [Batamanta ERTS Repository](https://github.com/Lorenzo-SF/Batamanta---ERTS-repository)
-****
 
 This project serves as a centralized, 
 ready-to-use archive for pre-compiled 
 Erlang Run-Time System (ERTS) binaries.
 
 ![Elixir](https://img.shields.io/badge/Elixir-4B275F?style=flat-square&logo=elixir&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-0D9488?style=flat-square)
-![RAG](https://img.shields.io/badge/RAG-F59E0B?style=flat-square)
+![Erlang](https://img.shields.io/badge/Erlang-A90533?style=flat-square)
+![27.0](https://img.shields.io/badge/27.0-ffff02?style=flat-square)
+![29.1.9](https://img.shields.io/badge/29.1.9-009a00?style=flat-square)
+![ARM](https://img.shields.io/badge/ARM-3A789C?style=flat-square)
+![x86_64](https://img.shields.io/badge/x86_64-be6614?style=flat-square)
+![Linux](https://img.shields.io/badge/Linux-F4BC00?style=flat-square)
+![MacOS](https://img.shields.io/badge/MacOS-0071E3?style=flat-square)
 
 </td>
 </tr>
