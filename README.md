@@ -36,13 +36,13 @@ Most of what I build starts as a personal need inside real systems and ends up a
 <tr>
 <td width="50%" valign="top">
 
-### 🕯️ [Candil](https://github.com/Lorenzo-SF/candil)
-**LLM runtime for Elixir**
+### 🚀 [Batamanta](https://github.com/Lorenzo-SF/Batamanta)
+**Elixir apps wrapper**
 
-Unified runtime for local and cloud LLMs.
-Supports llama.cpp, OpenAI, Anthropic and Ollama
-through a single interface — streaming, context
-management and OTP-native orchestration included.
+Package your Elixir applications 
+as 100% self-contained executables. 
+No Erlang/Elixir installation required 
+on the target machine.
 
 ![Elixir](https://img.shields.io/badge/Elixir-4B275F?style=flat-square&logo=elixir&logoColor=white)
 ![OTP](https://img.shields.io/badge/OTP-red?style=flat-square)
@@ -51,13 +51,12 @@ management and OTP-native orchestration included.
 </td>
 <td width="50%" valign="top">
 
-### 🏛️ [Delfos](https://github.com/Lorenzo-SF/delfos)
-**AI code intelligence server (MCP)**
+### 🔧 [Batamanta ERTS Repository](https://github.com/Lorenzo-SF/Batamanta---ERTS-repository)
+****
 
-MCP server for AI-assisted development tools
-(Claude Desktop, Cursor, Zed). Hybrid search
-(vector + BM25 + graph), 40+ languages via
-Tree-sitter NIFs, real-time re-indexing.
+This project serves as a centralized, 
+ready-to-use archive for pre-compiled 
+Erlang Run-Time System (ERTS) binaries.
 
 ![Elixir](https://img.shields.io/badge/Elixir-4B275F?style=flat-square&logo=elixir&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-0D9488?style=flat-square)
